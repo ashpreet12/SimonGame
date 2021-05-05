@@ -1,6 +1,6 @@
 # SimonGame
 
-In this project I tried to make A web version of the age-old memory game Simon. You must remember and repeat a series of button presses, while the steps increase with each level. 
+In this project I tried to make A web version of the age-old memory game Simon. One must remember and repeat a series of button presses, while the steps increase with each level. 
 
 ###Technologies Used:
 *HTML           (for elements and content of the page)
