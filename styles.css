@@ -61,8 +61,8 @@ footer {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
   border: 10px solid black;
   border-radius: 50%;
 }
