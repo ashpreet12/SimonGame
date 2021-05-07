@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ash's Simon Game</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -15,7 +16,7 @@
 </head>
 
 <body>
-  
+
   <h1 class="title">Simon Game</h1>
   <footer>
     Made with ❤️ by Ashpreet.
@@ -24,51 +25,59 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-6" id="rules">
+      <div class="col-lg-5" id="rules">
         <h3 class="rulHeading">Rules...</h3>
         <center>
 
 
           <ul class=rulesList>
-            <li>Press any key to START the game. SIMON will give only the first signal. </li>
+            <li>Press the START Button to start the game. SIMON will give only the first signal. </li>
             <li>Repeat Simon's signal, and immediately SIMON gives another signal.You will have to remember the Sequence! </li>
             <li>Try to reach as far as you can!</li>
             <li>If you make an error to play any signal, you'll hear the "RAZZ" sound. This means the game is over. </li>
-            <li>To play again after the game ends simply press any key to RESTART the game. </li>
+            <li>To play again after the game ends simply press the RESTART Button to restart the game. </li>
 
           </ul>
         </center>
 
       </div>
+      <div class="col-lg-1">
+        <center>
+          <button type="button" class="btn btn-success" id="start">Start</button>
+        </center>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="row">
 
-            <left><h1 id="level-title">Press A Key to Start</h1></left>
+      <div class="col-lg-6  col-md-12 col-sm-12" id="buttons">
+        <div class="row">
+
+          <span>
+            <h1 id="level-title">Press the 'START' Button to start the game.</h1>
+          </span>
 
 
 
-            <div type="button" id="green" class="btn green">
+          <div type="button" id="green" class="btns green">
 
-            </div>
-
-            <div type="button" id="red" class="btn red">
-
-            </div>
           </div>
 
-          <div class="row">
+          <div type="button" id="red" class="btns red">
 
-            <div type="button" id="yellow" class="btn yellow">
+          </div>
+        </div>
 
-            </div>
-            <div type="button" id="blue" class="btn blue">
+        <div class="row">
 
-            </div>
+          <div type="button" id="yellow" class="btns yellow">
+
+          </div>
+          <div type="button" id="blue" class="btns blue">
 
           </div>
 
         </div>
+
+      </div>
 
     </div>
 
@@ -84,8 +93,6 @@
 </body>
 
 </html>
-
-
 
 
 
