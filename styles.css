@@ -1,7 +1,6 @@
 body {
   text-align: center;
   background-color: #7b113a;
-
 }
 .title{
   font-family: 'Goblin One', cursive;
@@ -23,9 +22,6 @@ body {
   line-height: 2;
 
 
-}
-.buttons{
-  justify-content: center;
 }
 .rulesList{
   display: inline-block;
@@ -62,16 +58,13 @@ footer {
   margin-bottom: 3%;
 }
 
-.btns {
+.btn {
   margin: 25px;
   display: inline-block;
-  height: 170px;
-  width: 170px;
+  height: 200px;
+  width: 200px;
   border: 10px solid black;
   border-radius: 50%;
-}
-#start{
-  width:100%;
 }
 
 
